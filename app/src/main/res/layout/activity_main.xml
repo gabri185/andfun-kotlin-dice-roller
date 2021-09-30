@@ -29,11 +29,16 @@
         android:textSize="30sp"
         android:text="1" />
 
+    <!-- TODO (05) Set roll_button as the id of the Button-->
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="Roll" />
+        android:text="Roll"
+        android:id="@+id/roll_button"
+
+        />
+
 
 </LinearLayout>
 
