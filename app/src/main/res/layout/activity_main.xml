@@ -30,6 +30,7 @@
         android:layout_height="251dp"
         app:srcCompat="@mipmap/dados" />
 
+    <!-- cambiar strings en el layout -->
     <Button
         android:id="@+id/roll_button"
         android:layout_width="wrap_content"
