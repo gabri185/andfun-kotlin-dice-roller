@@ -31,11 +31,11 @@
         app:srcCompat="@mipmap/dados" />
 
     <Button
+        android:id="@+id/roll_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="Roll"
-        android:id="@+id/roll_button"
+        android:text="@string/roll"
         app:icon="@drawable/baseline_fingerprint_24"
         style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
 

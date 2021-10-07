@@ -32,27 +32,31 @@ class MainActivity : AppCompatActivity() {
     // TODO (01) Extract the image view variable here. You will need to use lateinit
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        lateinit var diceImage: ImageView
+
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
         val rollButton: Button = findViewById(R.id.roll_button)
         rollButton.setOnClickListener {
-            //rollDice()
+            rollDice()
         }
 
         // TODO (02) Initialize the image view variable here
     }
-    /*
+
     private fun rollDice() {
-        val randomInt = Random().nextInt(6) + 1
+        //val randomInt = Random().nextInt(6) + 1
+        val randomInt = (0..6).random()
         val drawableResource = when (randomInt) {
-            1 -> R.drawable.dice_1
-            2 -> R.drawable.dice_2
-            3 -> R.drawable.dice_3
-            4 -> R.drawable.dice_4
-            5 -> R.drawable.dice_5
-            else -> R.drawable.dice_6
+            1 -> R.drawable.dado1
+            2 -> R.drawable.dado2
+            3 -> R.drawable.dado3
+            4 -> R.drawable.dado4
+            5 -> R.drawable.dado5
+            else -> R.drawable.dado6
         }
+
 
 
 
@@ -61,6 +65,8 @@ class MainActivity : AppCompatActivity() {
         diceImage.setImageResource(drawableResource)
     }
 
-     */
+
+
+
 
     }

@@ -1,4 +1,5 @@
 <resources>
-    <string name="app_name">tirada de dados</string>
+    <string name="app_name">Tirar dados</string>
+    <string name="roll">Lanzar</string>
     <!-- TODO (04) Extract the text from the button to strings.xml -->
 </resources>
