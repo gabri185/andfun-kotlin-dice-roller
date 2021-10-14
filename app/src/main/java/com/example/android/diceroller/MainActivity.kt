@@ -63,6 +63,7 @@ class MainActivity : AppCompatActivity() {
         // TODO (03) Remove this local variable so that you use your new diceImage field
         val diceImage: ImageView = findViewById(R.id.dados)
         diceImage.setImageResource(drawableResource)
+
     }
 
 
